@@ -1,0 +1,25 @@
+body { font-family: helvetica; }
+.banner {
+    height: 5em;
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+.banner h1 { width: 60%; float: left; }
+.menu_wrapper {
+    width: 40%;
+    height: 2em;
+    margin-top: 1em;
+    float: right;
+    text-align: right;
+}
+.menu_wrapper a { margin-right: 1em; }
+.content {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 2em;
+}
+.hidden_form {
+    background-color: white;
+    border: none;
+}
